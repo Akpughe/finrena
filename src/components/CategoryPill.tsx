@@ -1,6 +1,11 @@
 import React from "react";
 
-const CategoryPill = ({ text, ...rest }: any) => {
+interface CategoryPillProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  text: string;
+}
+
+const CategoryPill: React.FC<CategoryPillProps> = ({ text, ...rest }) => {
   return (
     <button
       {...rest}

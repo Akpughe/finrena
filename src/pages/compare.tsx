@@ -7,6 +7,7 @@ import { useCategoriesQuery } from "@/hooks/use-categories";
 import { useFeaturesByCategoryQuery } from "@/hooks/use-features";
 import { useProductsByCategoryQuery } from "@/hooks/use-products";
 import { useFeatureValuesQuery } from "@/hooks/use-product-feature-values";
+import Head from "next/head";
 
 const Compare = () => {
   const client = useSupabaseClient();
@@ -46,11 +47,10 @@ const Compare = () => {
     (id): id is number => id !== null
   );
 
-  const {
-    data: featureValues,
-    isLoading: isLoadingFeatureValues,
-    error: featureValuesError,
-  } = useFeatureValuesQuery(client, selectedProductIds);
+  const { data: featureValues } = useFeatureValuesQuery(
+    client,
+    selectedProductIds
+  );
 
   // Handle category selection
   const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -89,6 +89,9 @@ const Compare = () => {
 
   return (
     <>
+      <Head>
+        <title>Compare | Finrena</title>
+      </Head>
       <Navbar />
 
       <div className="pt-20 px-16">

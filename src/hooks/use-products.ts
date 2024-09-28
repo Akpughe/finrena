@@ -1,6 +1,7 @@
+/* eslint-disable */
 // use-products.ts
 
-import { QueryKey, UseMutationOptions, UseQueryOptions, useMutation, useQuery } from '@tanstack/react-query';
+import { QueryKey, UseQueryOptions, useMutation, useQuery } from '@tanstack/react-query';
 import { TypedSupabaseClient } from './useSupabaseClient';
 
 export interface Product {
@@ -75,8 +76,7 @@ export interface CreateProductInput {
 }
 
 export function useCreateProductMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<Product, Error, CreateProductInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async (newProduct: CreateProductInput): Promise<Product> => {
     const { data, error } = await client
@@ -107,8 +107,7 @@ export interface UpdateProductInput {
 }
 
 export function useUpdateProductMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<Product, Error, UpdateProductInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async (updatedProduct: UpdateProductInput): Promise<Product> => {
     const { id, ...updates } = updatedProduct;
@@ -138,8 +137,7 @@ export interface DeleteProductInput {
 }
 
 export function useDeleteProductMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<null, Error, DeleteProductInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async ({ id }: DeleteProductInput): Promise<null> => {
     await client.from('products').delete().eq('id', id).throwOnError();

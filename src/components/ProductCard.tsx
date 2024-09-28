@@ -1,12 +1,24 @@
 import React from "react";
 import Image from "next/image";
 
-const ProductCard = ({ logoUrl, name, description, onClick }: any) => {
+interface ProductCardProps {
+  logoUrl: string | null;
+  name: string;
+  description: string | null;
+  onClick: React.MouseEventHandler<HTMLButtonElement>; // Type for the onClick event
+}
+
+const ProductCard = ({
+  logoUrl,
+  name,
+  description,
+  onClick,
+}: ProductCardProps) => {
   return (
     <div className="lg:w-full md:w-full h-[285px] pt-8 pl-12 pr-4 bg-[#00000008] rounded-xl">
       <div className="">
         <Image
-          src={logoUrl}
+          src={logoUrl ?? ""}
           width={36}
           height={36}
           alt={name}

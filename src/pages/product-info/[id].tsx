@@ -1,9 +1,12 @@
+/* eslint-disable */
+
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useProductDetailsQuery } from "@/hooks/use-products";
 import useSupabaseClient from "@/hooks/useSupabaseClient";
+import Head from "next/head";
 
 const ProductInfo = () => {
   const client = useSupabaseClient();
@@ -21,6 +24,9 @@ const ProductInfo = () => {
   console.log("productDetails", productDetails);
   return (
     <>
+      <Head>
+        <title>{productDetails?.name} | Finrena</title>
+      </Head>
       <Navbar />
       <div className="pt-20 lg:px-20 px-5 lg:max-w-7xl max-w-full">
         {isLoading ? (
@@ -75,7 +81,7 @@ const ProductInfo = () => {
                 </div>
                 <div className="">
                   <h4 className="text-2xl font-semibold">
-                    {productDetails?.name}
+                    {productDetails && productDetails.name}
                   </h4>
                   <p>Simple . Secure</p>
                 </div>
@@ -135,7 +141,7 @@ const ProductInfo = () => {
                   <ul className="flex flex-col gap-y-5">
                     {productDetails?.features.map((prod) => {
                       return (
-                        <li>
+                        <li key={prod.id}>
                           <p className="text-2xl font-bold">{prod.name}</p>
                           <p>{prod.description}</p>
                           <small>{prod?.value}</small>

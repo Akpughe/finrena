@@ -1,6 +1,6 @@
 // use-categories.ts
 
-import { QueryKey, UseMutationOptions, UseQueryOptions, useMutation, useQuery } from '@tanstack/react-query';
+import { QueryKey, UseQueryOptions, useMutation, useQuery } from '@tanstack/react-query';
 import { TypedSupabaseClient } from './useSupabaseClient';
 
 export interface Category {
@@ -29,8 +29,7 @@ export interface CreateCategoryInput {
 }
 
 export function useCreateCategoryMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<Category, Error, CreateCategoryInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async (newCategory: CreateCategoryInput): Promise<Category> => {
     const { data, error } = await client
@@ -61,8 +60,7 @@ export interface UpdateCategoryInput {
 }
 
 export function useUpdateCategoryMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<Category, Error, UpdateCategoryInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async (updatedCategory: UpdateCategoryInput): Promise<Category> => {
     const { id, ...updates } = updatedCategory;
@@ -93,8 +91,7 @@ export interface DeleteCategoryInput {
 }
 
 export function useDeleteCategoryMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<null, Error, DeleteCategoryInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async ({ id }: DeleteCategoryInput): Promise<null> => {
     await client.from('categories').delete().eq('id', id).throwOnError();

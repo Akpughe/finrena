@@ -1,6 +1,6 @@
 // use-product-feature-values.ts
 
-import { QueryKey, UseMutationOptions, UseQueryOptions, useMutation, useQuery } from '@tanstack/react-query';
+import { UseQueryOptions, useMutation, useQuery } from '@tanstack/react-query';
 import { TypedSupabaseClient } from './useSupabaseClient';
 
 export interface FeatureValue {
@@ -83,8 +83,7 @@ export interface AddFeatureValueInput {
 }
 
 export function useAddFeatureValueMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<FeatureValue, Error, AddFeatureValueInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async (newFeatureValue: AddFeatureValueInput): Promise<FeatureValue> => {
     const { data, error } = await client
@@ -112,8 +111,7 @@ export interface UpdateFeatureValueInput {
 }
 
 export function useUpdateFeatureValueMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<FeatureValue, Error, UpdateFeatureValueInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async (updatedFeatureValue: UpdateFeatureValueInput): Promise<FeatureValue> => {
     const { id, value } = updatedFeatureValue;
@@ -142,8 +140,7 @@ export interface DeleteFeatureValueInput {
 }
 
 export function useDeleteFeatureValueMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<null, Error, DeleteFeatureValueInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async ({ id }: DeleteFeatureValueInput): Promise<null> => {
     await client.from('product_feature_values').delete().eq('id', id).throwOnError();

@@ -1,6 +1,6 @@
 // use-comparison-metrics.ts
 
-import { QueryKey, UseMutationOptions, UseQueryOptions, useMutation, useQuery } from '@tanstack/react-query';
+import { QueryKey, UseQueryOptions, useMutation, useQuery } from '@tanstack/react-query';
 import { TypedSupabaseClient } from './useSupabaseClient';
 
 export interface ComparisonMetric {
@@ -48,8 +48,7 @@ export interface CreateComparisonMetricInput {
 }
 
 export function useCreateComparisonMetricMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<ComparisonMetric, Error, CreateComparisonMetricInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async (
     newComparisonMetric: CreateComparisonMetricInput
@@ -82,8 +81,7 @@ export interface DeleteComparisonMetricInput {
 }
 
 export function useDeleteComparisonMetricMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<null, Error, DeleteComparisonMetricInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async ({ id }: DeleteComparisonMetricInput): Promise<null> => {
     await client.from('comparison_metrics').delete().eq('id', id).throwOnError();

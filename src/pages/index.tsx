@@ -1,26 +1,15 @@
-import Image from "next/image";
-import localFont from "next/font/local";
 import { useCategoriesQuery } from "@/hooks/use-categories";
-import {
-  useProductsQuery,
-  useProductsByCategoryQuery,
-  useProductDetailsQuery,
-} from "@/hooks/use-products";
-import { useFeaturesByCategoryQuery } from "@/hooks/use-features";
+import { useProductsQuery } from "@/hooks/use-products";
 import useSupabaseClient from "@/hooks/useSupabaseClient";
-import { useQuery } from "@tanstack/react-query";
-import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import CategoryPill from "@/components/CategoryPill";
 import ProductCard from "@/components/ProductCard";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function Home() {
   const router = useRouter();
   const client = useSupabaseClient();
-
-  const [categoryId, setCategoryId] = useState<number>(1);
-  const [productId, setProductId] = useState(1);
 
   function replaceSpacesWithHyphens(path: string) {
     return path.includes(" ") ? path.replace(/\s+/g, "-") : path;
@@ -31,28 +20,15 @@ export default function Home() {
 
   const productData = useProductsQuery(client);
 
-  const {
-    data: productsByCategory,
-    isLoading,
-    error,
-  } = useProductsByCategoryQuery(client, categoryId ?? 0);
-
-  const { data: productDetails } = useProductDetailsQuery(client, productId);
-
-  const {
-    data: features,
-    isLoading: isLoadingFeatures,
-    error: featuresError,
-  } = useFeaturesByCategoryQuery(client, categoryId ?? 0);
-
-  console.log("categoryData", categories);
-  console.log("productData", productData.data);
-  console.log("product by category", productsByCategory);
-  console.log("productDetails", productDetails);
-  console.log("features", features);
+  // const {
+  //   data: productsByCategory,
+  // } = useProductsByCategoryQuery(client, categoryId ?? 0);
 
   return (
     <>
+      <Head>
+        <title>Finrena | Home</title>
+      </Head>
       <Navbar />
 
       <div className="pt-10">
@@ -71,8 +47,10 @@ export default function Home() {
             <p>Categories</p>
 
             <div className="px-2 pt-5 flex gap-x-4 gap-y-2 flex-wrap">
+              {isLoadingCategories && <p>Loading...</p>}
               {categories?.map((cate) => (
                 <CategoryPill
+                  key={cate.id}
                   text={cate?.name}
                   onClick={() => console.log("payment")}
                 />
@@ -85,8 +63,10 @@ export default function Home() {
               {productData.data?.map((prod) => {
                 const path_name = replaceSpacesWithHyphens(prod.name);
                 const finalPathName = path_name.toLowerCase();
+                console.log("finalPathName", finalPathName);
                 return (
                   <ProductCard
+                    key={prod.id}
                     logoUrl={prod.logo_url}
                     name={prod.name}
                     description={prod.description}

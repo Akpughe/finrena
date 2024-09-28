@@ -1,6 +1,6 @@
 // use-features.ts
 
-import { QueryKey, UseMutationOptions, UseQueryOptions, useMutation, useQuery } from '@tanstack/react-query';
+import { QueryKey, UseQueryOptions, useMutation, useQuery } from '@tanstack/react-query';
 import { TypedSupabaseClient } from './useSupabaseClient';
 
 export interface Feature {
@@ -68,8 +68,7 @@ export interface CreateFeatureInput {
 }
 
 export function useCreateFeatureMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<Feature, Error, CreateFeatureInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async (newFeature: CreateFeatureInput): Promise<Feature> => {
     const { data, error } = await client
@@ -99,8 +98,7 @@ export interface UpdateFeatureInput {
 }
 
 export function useUpdateFeatureMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<Feature, Error, UpdateFeatureInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async (updatedFeature: UpdateFeatureInput): Promise<Feature> => {
     const { id, ...updates } = updatedFeature;
@@ -130,8 +128,7 @@ export interface DeleteFeatureInput {
 }
 
 export function useDeleteFeatureMutation(
-  client: TypedSupabaseClient,
-  options?: UseMutationOptions<null, Error, DeleteFeatureInput>
+  client: TypedSupabaseClient
 ) {
   const mutationFn = async ({ id }: DeleteFeatureInput): Promise<null> => {
     await client.from('features').delete().eq('id', id).throwOnError();

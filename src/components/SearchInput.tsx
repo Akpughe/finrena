@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import useSupabaseClient from "@/hooks/useSupabaseClient";
 import { useSearchProductsQuery } from "@/hooks/use-utilities";
 import { useRouter } from "next/router";
+import { Product } from "@/hooks/use-products";
 
 const SearchInput = () => {
   const router = useRouter();
@@ -53,7 +54,7 @@ const SearchInput = () => {
   };
 
   // Handle suggestion click
-  const handleSuggestionClick = (product: any) => {
+  const handleSuggestionClick = (product: Product) => {
     setSearchTerm(product?.name);
     setIsDropdownVisible(false);
     router.push(`/product-info/${product?.id}`);
