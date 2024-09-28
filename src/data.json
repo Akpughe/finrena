@@ -1,0 +1,1010 @@
+{
+  "categories": [
+    {
+      "name": "Payment Gateways",
+      "description": "Platforms that facilitate the processing of electronic payments for online and offline businesses, supporting various payment methods and currencies.",
+      "products": [
+        {
+          "name": "Flutterwave",
+          "description": "Flutterwave provides comprehensive payment solutions, enabling businesses to accept and process payments globally through various channels.",
+          "website_url": "https://www.flutterwave.com",
+          "logo_url": "https://www.flutterwave.com/logo.png",
+          "features": [
+            {
+              "name": "Supported Payment Methods",
+              "description": "Various channels through which payments can be accepted.",
+              "value": "Credit/Debit Cards, Bank Transfers, Mobile Money, USSD, QR Codes",
+              "additional_details": ""
+            },
+            {
+              "name": "Pricing",
+              "description": "Fee structure for using the payment gateway.",
+              "value": "Local: 1.4% + NGN 100; International: 3.8% + NGN 100",
+              "additional_details": ""
+            },
+            {
+              "name": "API Integration",
+              "description": "Availability and type of API for integration with platforms.",
+              "value": "Available via REST API",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Compliance",
+              "description": "Standards and certifications the gateway complies with.",
+              "value": "PCI DSS Compliant",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Paystack",
+          "description": "Paystack offers seamless payment processing for online businesses, supporting multiple payment methods and currencies.",
+          "website_url": "https://www.paystack.com",
+          "logo_url": "https://www.paystack.com/logo.png",
+          "features": [
+            {
+              "name": "Supported Payment Methods",
+              "description": "Various channels through which payments can be accepted.",
+              "value": "Credit/Debit Cards, Bank Transfers, Mobile Money, USSD",
+              "additional_details": ""
+            },
+            {
+              "name": "Pricing",
+              "description": "Fee structure for using the payment gateway.",
+              "value": "Local Transactions: 1.5% + NGN 100 (waived for transactions under NGN 2,500); International Transactions: 3.9% + NGN 100",
+              "additional_details": "Transfers: NGN 10 (≤ NGN 5,000), NGN 25 (NGN 5,001 - NGN 50,000), NGN 50 (> NGN 50,000)"
+            },
+            {
+              "name": "API Integration",
+              "description": "Availability and type of API for integration with platforms.",
+              "value": "Available via REST API",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Compliance",
+              "description": "Standards and certifications the gateway complies with.",
+              "value": "PCI DSS Compliant",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Interswitch",
+          "description": "Interswitch is a leading integrated digital payments and commerce company in Africa, facilitating electronic transactions and offering a wide range of financial services.",
+          "website_url": "https://www.interswitchgroup.com",
+          "logo_url": "https://www.interswitchgroup.com/logo.png",
+          "features": [
+            {
+              "name": "Supported Payment Methods",
+              "description": "Various channels through which payments can be accepted.",
+              "value": "Credit/Debit Cards, Bank Transfers, Mobile Money, USSD",
+              "additional_details": ""
+            },
+            {
+              "name": "Pricing",
+              "description": "Fee structure for using the payment gateway.",
+              "value": "Customized pricing based on volume and services",
+              "additional_details": ""
+            },
+            {
+              "name": "API Integration",
+              "description": "Availability and type of API for integration with platforms.",
+              "value": "Available via REST and SOAP APIs",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Compliance",
+              "description": "Standards and certifications the gateway complies with.",
+              "value": "PCI DSS Compliant",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "eTranzact",
+          "description": "eTranzact offers payment solutions and services for businesses and consumers in Africa, facilitating electronic transactions and financial management.",
+          "website_url": "https://www.etranzact.com",
+          "logo_url": "https://www.etranzact.com/logo.png",
+          "features": [
+            {
+              "name": "Supported Payment Methods",
+              "description": "Various channels through which payments can be accepted.",
+              "value": "Credit/Debit Cards, Bank Transfers, Mobile Money, USSD",
+              "additional_details": ""
+            },
+            {
+              "name": "Pricing",
+              "description": "Fee structure for using the payment gateway.",
+              "value": "Customized pricing based on services",
+              "additional_details": ""
+            },
+            {
+              "name": "API Integration",
+              "description": "Availability and type of API for integration with platforms.",
+              "value": "Available via REST API",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Compliance",
+              "description": "Standards and certifications the gateway complies with.",
+              "value": "PCI DSS Compliant",
+              "additional_details": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Digital Wallets",
+      "description": "Platforms that allow users to store, manage, and transfer money digitally, often integrated with various financial services.",
+      "products": [
+        {
+          "name": "Opay",
+          "description": "Opay is a mobile-based platform offering a variety of financial services such as payments, transfers, and mobile banking tailored for African markets.",
+          "website_url": "https://www.opayweb.com",
+          "logo_url": "https://www.opayweb.com/logo.png",
+          "features": [
+            {
+              "name": "Mobile App",
+              "description": "Availability of a mobile application for accessing services.",
+              "value": "Yes, available on iOS and Android",
+              "additional_details": ""
+            },
+            {
+              "name": "Money Transfer",
+              "description": "Ability to send and receive money digitally.",
+              "value": "Yes",
+              "additional_details": ""
+            },
+            {
+              "name": "Bill Payments",
+              "description": "Option to pay utility and other bills through the platform.",
+              "value": "Yes",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and transactions.",
+              "value": "Two-factor authentication, encryption",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Paga",
+          "description": "Paga is a mobile payments platform that enables users to send and receive money, pay bills, and access various financial services through a mobile app.",
+          "website_url": "https://www.paga.com",
+          "logo_url": "https://www.paga.com/logo.png",
+          "features": [
+            {
+              "name": "Mobile App",
+              "description": "Availability of a mobile application for accessing services.",
+              "value": "Yes, available on iOS and Android",
+              "additional_details": ""
+            },
+            {
+              "name": "Money Transfer",
+              "description": "Ability to send and receive money digitally.",
+              "value": "Yes",
+              "additional_details": ""
+            },
+            {
+              "name": "Bill Payments",
+              "description": "Option to pay utility and other bills through the platform.",
+              "value": "Yes",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and transactions.",
+              "value": "Two-factor authentication, encryption",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Wallets Africa",
+          "description": "Wallets Africa provides digital wallet solutions and payment services tailored for the African market, enabling easy money transfers and transactions.",
+          "website_url": "https://www.walletsafrica.com",
+          "logo_url": "https://www.walletsafrica.com/logo.png",
+          "features": [
+            {
+              "name": "Mobile App",
+              "description": "Availability of a mobile application for accessing services.",
+              "value": "Yes, available on iOS and Android",
+              "additional_details": ""
+            },
+            {
+              "name": "Money Transfer",
+              "description": "Ability to send and receive money digitally.",
+              "value": "Yes",
+              "additional_details": ""
+            },
+            {
+              "name": "Bill Payments",
+              "description": "Option to pay utility and other bills through the platform.",
+              "value": "Yes",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and transactions.",
+              "value": "Two-factor authentication, encryption",
+              "additional_details": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lending Platforms",
+      "description": "Platforms that provide loans and credit solutions to individuals and businesses, often leveraging technology for quick approvals and disbursements.",
+      "products": [
+        {
+          "name": "Carbon",
+          "description": "Carbon offers digital financial services including instant loans, bill payments, and savings options via a mobile app.",
+          "website_url": "https://www.getcarbon.co",
+          "logo_url": "https://www.getcarbon.co/logo.png",
+          "features": [
+            {
+              "name": "Loan Offerings",
+              "description": "Types of loans available to users.",
+              "value": "Instant personal loans, business loans",
+              "additional_details": ""
+            },
+            {
+              "name": "Disbursement Speed",
+              "description": "Time taken to disburse approved loans.",
+              "value": "Instant",
+              "additional_details": ""
+            },
+            {
+              "name": "Repayment Options",
+              "description": "Flexibility in repaying loans.",
+              "value": "Flexible repayment plans via mobile app",
+              "additional_details": ""
+            },
+            {
+              "name": "Credit Scoring",
+              "description": "Mechanism used to evaluate borrower creditworthiness.",
+              "value": "Data-driven algorithms",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Renmoney",
+          "description": "Renmoney offers personal and business loans, savings accounts, and other financial services, focusing on providing accessible credit solutions.",
+          "website_url": "https://www.renmoney.com",
+          "logo_url": "https://www.renmoney.com/logo.png",
+          "features": [
+            {
+              "name": "Loan Offerings",
+              "description": "Types of loans available to users.",
+              "value": "Personal loans, business loans",
+              "additional_details": ""
+            },
+            {
+              "name": "Disbursement Speed",
+              "description": "Time taken to disburse approved loans.",
+              "value": "Within 24 hours",
+              "additional_details": ""
+            },
+            {
+              "name": "Repayment Options",
+              "description": "Flexibility in repaying loans.",
+              "value": "Monthly, bi-weekly installments",
+              "additional_details": ""
+            },
+            {
+              "name": "Credit Scoring",
+              "description": "Mechanism used to evaluate borrower creditworthiness.",
+              "value": "Manual and automated credit assessments",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "OneFi",
+          "description": "OneFi delivers instant credit solutions by leveraging alternative data and technology-driven underwriting to provide loans quickly and efficiently.",
+          "website_url": "https://www.onefi.ng",
+          "logo_url": "https://www.onefi.ng/logo.png",
+          "features": [
+            {
+              "name": "Loan Offerings",
+              "description": "Types of loans available to users.",
+              "value": "Personal loans, small business loans",
+              "additional_details": ""
+            },
+            {
+              "name": "Disbursement Speed",
+              "description": "Time taken to disburse approved loans.",
+              "value": "Within minutes to hours",
+              "additional_details": ""
+            },
+            {
+              "name": "Repayment Options",
+              "description": "Flexibility in repaying loans.",
+              "value": "Flexible schedules via mobile app",
+              "additional_details": ""
+            },
+            {
+              "name": "Credit Scoring",
+              "description": "Mechanism used to evaluate borrower creditworthiness.",
+              "value": "Alternative data-driven models",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Migo",
+          "description": "Migo offers flexible financing options and credit solutions using data-driven insights to provide personalized loan offers and manage repayments.",
+          "website_url": "https://www.migo.money",
+          "logo_url": "https://www.migo.money/logo.png",
+          "features": [
+            {
+              "name": "Loan Offerings",
+              "description": "Types of loans available to users.",
+              "value": "Instant loans, salary advances",
+              "additional_details": ""
+            },
+            {
+              "name": "Disbursement Speed",
+              "description": "Time taken to disburse approved loans.",
+              "value": "Instant to within a day",
+              "additional_details": ""
+            },
+            {
+              "name": "Repayment Options",
+              "description": "Flexibility in repaying loans.",
+              "value": "Automated deductions, flexible schedules",
+              "additional_details": ""
+            },
+            {
+              "name": "Credit Scoring",
+              "description": "Mechanism used to evaluate borrower creditworthiness.",
+              "value": "AI-driven credit assessments",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Fairmoney",
+          "description": "Fairmoney offers microloans and financial services via mobile platforms, focusing on providing accessible credit to individuals and small businesses.",
+          "website_url": "https://www.fairmoney.ng",
+          "logo_url": "https://www.fairmoney.ng/logo.png",
+          "features": [
+            {
+              "name": "Loan Offerings",
+              "description": "Types of loans available to users.",
+              "value": "Microloans, personal loans",
+              "additional_details": ""
+            },
+            {
+              "name": "Disbursement Speed",
+              "description": "Time taken to disburse approved loans.",
+              "value": "Within minutes",
+              "additional_details": ""
+            },
+            {
+              "name": "Repayment Options",
+              "description": "Flexibility in repaying loans.",
+              "value": "Daily, weekly, or monthly repayments",
+              "additional_details": ""
+            },
+            {
+              "name": "Credit Scoring",
+              "description": "Mechanism used to evaluate borrower creditworthiness.",
+              "value": "Data-driven credit assessments",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "KiaKia",
+          "description": "KiaKia provides digital lending and financial services aimed at underserved markets, helping individuals and businesses access credit and manage finances.",
+          "website_url": "https://www.kiakia.com",
+          "logo_url": "https://www.kiakia.com/logo.png",
+          "features": [
+            {
+              "name": "Loan Offerings",
+              "description": "Types of loans available to users.",
+              "value": "Personal loans, business loans",
+              "additional_details": ""
+            },
+            {
+              "name": "Disbursement Speed",
+              "description": "Time taken to disburse approved loans.",
+              "value": "Within hours",
+              "additional_details": ""
+            },
+            {
+              "name": "Repayment Options",
+              "description": "Flexibility in repaying loans.",
+              "value": "Flexible schedules via mobile app",
+              "additional_details": ""
+            },
+            {
+              "name": "Credit Scoring",
+              "description": "Mechanism used to evaluate borrower creditworthiness.",
+              "value": "Alternative data-driven models",
+              "additional_details": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Investment Platforms",
+      "description": "Platforms that allow users to invest in various financial instruments such as stocks, real estate, and mutual funds, often providing tools for portfolio management and growth.",
+      "products": [
+        {
+          "name": "PiggyVest",
+          "description": "PiggyVest is a savings and investment platform that helps users save money automatically and invest in various financial products to grow their wealth.",
+          "website_url": "https://www.piggyvest.com",
+          "logo_url": "https://www.piggyvest.com/logo.png",
+          "features": [
+            {
+              "name": "Automatic Savings",
+              "description": "Ability to set up automated savings plans.",
+              "value": "Yes",
+              "additional_details": ""
+            },
+            {
+              "name": "Investment Options",
+              "description": "Types of investment products available.",
+              "value": "Fixed Savings, SafeLock, Mutual Funds",
+              "additional_details": ""
+            },
+            {
+              "name": "Portfolio Management",
+              "description": "Tools available for managing investments.",
+              "value": "Dashboard for tracking investments and returns",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and investments.",
+              "value": "Encryption, two-factor authentication",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Cowrywise",
+          "description": "Cowrywise provides automated savings and investment solutions, allowing users to set financial goals and invest in mutual funds and other assets.",
+          "website_url": "https://www.cowrywise.com",
+          "logo_url": "https://www.cowrywise.com/logo.png",
+          "features": [
+            {
+              "name": "Automatic Savings",
+              "description": "Ability to set up automated savings plans.",
+              "value": "Yes",
+              "additional_details": ""
+            },
+            {
+              "name": "Investment Options",
+              "description": "Types of investment products available.",
+              "value": "Mutual Funds, Fixed Savings",
+              "additional_details": ""
+            },
+            {
+              "name": "Portfolio Management",
+              "description": "Tools available for managing investments.",
+              "value": "Dashboard for tracking investments and returns",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and investments.",
+              "value": "Encryption, two-factor authentication",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Risevest",
+          "description": "Risevest is an investment platform that allows users to invest in real estate, stocks, and other assets, aiming to make investing accessible and straightforward.",
+          "website_url": "https://www.risevest.com",
+          "logo_url": "https://www.risevest.com/logo.png",
+          "features": [
+            {
+              "name": "Investment Options",
+              "description": "Types of investment products available.",
+              "value": "Real Estate, Stocks, Bonds, ETFs",
+              "additional_details": ""
+            },
+            {
+              "name": "Minimum Investment",
+              "description": "Minimum amount required to start investing.",
+              "value": "$10",
+              "additional_details": ""
+            },
+            {
+              "name": "Portfolio Management",
+              "description": "Tools available for managing investments.",
+              "value": "Automated portfolio rebalancing, performance tracking",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and investments.",
+              "value": "Encryption, two-factor authentication",
+              "additional_details": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Digital Banks",
+      "description": "Banks that operate entirely online without physical branches, offering a range of banking services through digital platforms such as mobile apps and websites.",
+      "products": [
+        {
+          "name": "Kuda",
+          "description": "Kuda is a digital-only bank offering free banking services, including no-fee accounts, transfers, budgeting tools, and savings features via a mobile app.",
+          "website_url": "https://www.kudabank.com",
+          "logo_url": "https://www.kudabank.com/logo.png",
+          "features": [
+            {
+              "name": "Account Fees",
+              "description": "Fees associated with maintaining an account.",
+              "value": "No monthly fees, no minimum balance",
+              "additional_details": ""
+            },
+            {
+              "name": "Transfers",
+              "description": "Ability to send and receive money.",
+              "value": "Free domestic transfers",
+              "additional_details": "International transfers may incur fees"
+            },
+            {
+              "name": "Budgeting Tools",
+              "description": "Tools available for managing personal finances.",
+              "value": "Spending insights, budgeting categories",
+              "additional_details": ""
+            },
+            {
+              "name": "Savings Features",
+              "description": "Options available for saving money.",
+              "value": "Automated savings, goal setting",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and funds.",
+              "value": "Encryption, two-factor authentication, biometric login",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "V Bank",
+          "description": "V Bank is a digital bank offering a full range of banking services online, including savings accounts, payments, and financial management tools.",
+          "website_url": "https://www.vbank.com",
+          "logo_url": "https://www.vbank.com/logo.png",
+          "features": [
+            {
+              "name": "Account Fees",
+              "description": "Fees associated with maintaining an account.",
+              "value": "No monthly fees, no minimum balance",
+              "additional_details": ""
+            },
+            {
+              "name": "Transfers",
+              "description": "Ability to send and receive money.",
+              "value": "Free domestic transfers",
+              "additional_details": "International transfers may incur fees"
+            },
+            {
+              "name": "Budgeting Tools",
+              "description": "Tools available for managing personal finances.",
+              "value": "Spending insights, budgeting categories",
+              "additional_details": ""
+            },
+            {
+              "name": "Savings Features",
+              "description": "Options available for saving money.",
+              "value": "Automated savings, goal setting",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and funds.",
+              "value": "Encryption, two-factor authentication, biometric login",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Eyowo",
+          "description": "Eyowo is a digital banking service that provides accounts, payments, and other financial services through a user-friendly mobile application.",
+          "website_url": "https://www.eyowo.com",
+          "logo_url": "https://www.eyowo.com/logo.png",
+          "features": [
+            {
+              "name": "Account Fees",
+              "description": "Fees associated with maintaining an account.",
+              "value": "No monthly fees, low transaction fees",
+              "additional_details": ""
+            },
+            {
+              "name": "Transfers",
+              "description": "Ability to send and receive money.",
+              "value": "Free domestic transfers up to a limit",
+              "additional_details": "Fees apply beyond limits"
+            },
+            {
+              "name": "Budgeting Tools",
+              "description": "Tools available for managing personal finances.",
+              "value": "Spending insights, budgeting categories",
+              "additional_details": ""
+            },
+            {
+              "name": "Savings Features",
+              "description": "Options available for saving money.",
+              "value": "Automated savings, goal setting",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and funds.",
+              "value": "Encryption, two-factor authentication, biometric login",
+              "additional_details": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "APIs / Integrations",
+      "description": "Platforms that provide APIs and integration tools for other businesses to incorporate financial services into their applications and systems.",
+      "products": [
+        {
+          "name": "Okra",
+          "description": "Okra offers APIs that integrate financial services into applications, providing access to banking data and enabling features like account verification and transaction processing.",
+          "website_url": "https://www.okra.ng",
+          "logo_url": "https://www.okra.ng/logo.png",
+          "features": [
+            {
+              "name": "API Availability",
+              "description": "Availability of APIs for integration.",
+              "value": "REST APIs available",
+              "additional_details": ""
+            },
+            {
+              "name": "Supported Services",
+              "description": "Types of financial services accessible via APIs.",
+              "value": "Account verification, transaction processing, data aggregation",
+              "additional_details": ""
+            },
+            {
+              "name": "Pricing",
+              "description": "Fee structure for using the APIs.",
+              "value": "Tiered pricing based on usage",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Compliance",
+              "description": "Standards and certifications the APIs comply with.",
+              "value": "PCI DSS Compliant, OAuth 2.0",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Mono",
+          "description": "Mono provides APIs that allow businesses to connect with users' bank accounts, facilitating services like payment processing, account verification, and financial data access.",
+          "website_url": "https://www.mono.co",
+          "logo_url": "https://www.mono.co/logo.png",
+          "features": [
+            {
+              "name": "API Availability",
+              "description": "Availability of APIs for integration.",
+              "value": "REST APIs available",
+              "additional_details": ""
+            },
+            {
+              "name": "Supported Services",
+              "description": "Types of financial services accessible via APIs.",
+              "value": "Payment processing, account verification, data aggregation",
+              "additional_details": ""
+            },
+            {
+              "name": "Pricing",
+              "description": "Fee structure for using the APIs.",
+              "value": "Subscription-based pricing",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Compliance",
+              "description": "Standards and certifications the APIs comply with.",
+              "value": "PCI DSS Compliant, OAuth 2.0",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "TeamApt",
+          "description": "TeamApt develops digital banking and payment solutions for financial institutions, enhancing their digital transformation and customer experience.",
+          "website_url": "https://www.teamapt.com",
+          "logo_url": "https://www.teamapt.com/logo.png",
+          "features": [
+            {
+              "name": "API Availability",
+              "description": "Availability of APIs for integration.",
+              "value": "Custom APIs available",
+              "additional_details": ""
+            },
+            {
+              "name": "Supported Services",
+              "description": "Types of financial services accessible via APIs.",
+              "value": "Digital banking solutions, payment processing",
+              "additional_details": ""
+            },
+            {
+              "name": "Pricing",
+              "description": "Fee structure for using the APIs.",
+              "value": "Customized pricing based on services",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Compliance",
+              "description": "Standards and certifications the APIs comply with.",
+              "value": "PCI DSS Compliant, ISO 27001",
+              "additional_details": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E-commerce Platforms",
+      "description": "Platforms that facilitate online buying and selling of goods and services, often integrated with payment solutions and financing options.",
+      "products": [
+        {
+          "name": "TradeDepot",
+          "description": "TradeDepot is a B2B e-commerce platform connecting retailers with suppliers, offering financing solutions to help businesses manage inventory and grow.",
+          "website_url": "https://www.tradedepot.ng",
+          "logo_url": "https://www.tradedepot.ng/logo.png",
+          "features": [
+            {
+              "name": "Product Catalog",
+              "description": "Range of products available for purchase.",
+              "value": "Wide range of consumer goods",
+              "additional_details": ""
+            },
+            {
+              "name": "Financing Solutions",
+              "description": "Options available to finance inventory purchases.",
+              "value": "Credit lines, installment payments",
+              "additional_details": ""
+            },
+            {
+              "name": "Order Management",
+              "description": "Tools available for managing orders and inventory.",
+              "value": "Dashboard for tracking orders, inventory levels",
+              "additional_details": ""
+            },
+            {
+              "name": "Payment Integration",
+              "description": "Integration with payment gateways for transactions.",
+              "value": "Integrated with major payment gateways",
+              "additional_details": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agricultural Fintech",
+      "description": "Platforms that provide financial services tailored to the agricultural sector, including financing for farming projects, investment opportunities, and resource management.",
+      "products": [
+        {
+          "name": "Thrive Agric",
+          "description": "Thrive Agric is a fintech platform focused on agricultural financing, allowing investors to fund farming projects and supporting farmers with credit and resources.",
+          "website_url": "https://www.thriveagric.com",
+          "logo_url": "https://www.thriveagric.com/logo.png",
+          "features": [
+            {
+              "name": "Funding Options",
+              "description": "Ways investors can fund farming projects.",
+              "value": "Direct investment, loans",
+              "additional_details": ""
+            },
+            {
+              "name": "Farmer Support",
+              "description": "Resources and support provided to farmers.",
+              "value": "Credit, farming inputs, advisory services",
+              "additional_details": ""
+            },
+            {
+              "name": "Project Tracking",
+              "description": "Tools available for monitoring funded projects.",
+              "value": "Dashboard for tracking progress and returns",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and investments.",
+              "value": "Encryption, secure transactions",
+              "additional_details": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Savings and Investment Platforms",
+      "description": "Platforms that offer users the ability to save and invest money through various financial products, often with automated features and goal-setting tools.",
+      "products": [
+        {
+          "name": "PiggyVest",
+          "description": "PiggyVest is a savings and investment platform that helps users save money automatically and invest in various financial products to grow their wealth.",
+          "website_url": "https://www.piggyvest.com",
+          "logo_url": "https://www.piggyvest.com/logo.png",
+          "features": [
+            {
+              "name": "Automatic Savings",
+              "description": "Ability to set up automated savings plans.",
+              "value": "Yes",
+              "additional_details": ""
+            },
+            {
+              "name": "Investment Options",
+              "description": "Types of investment products available.",
+              "value": "Fixed Savings, SafeLock, Mutual Funds",
+              "additional_details": ""
+            },
+            {
+              "name": "Portfolio Management",
+              "description": "Tools available for managing investments.",
+              "value": "Dashboard for tracking investments and returns",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and investments.",
+              "value": "Encryption, two-factor authentication",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Cowrywise",
+          "description": "Cowrywise provides automated savings and investment solutions, allowing users to set financial goals and invest in mutual funds and other assets.",
+          "website_url": "https://www.cowrywise.com",
+          "logo_url": "https://www.cowrywise.com/logo.png",
+          "features": [
+            {
+              "name": "Automatic Savings",
+              "description": "Ability to set up automated savings plans.",
+              "value": "Yes",
+              "additional_details": ""
+            },
+            {
+              "name": "Investment Options",
+              "description": "Types of investment products available.",
+              "value": "Mutual Funds, Fixed Savings",
+              "additional_details": ""
+            },
+            {
+              "name": "Portfolio Management",
+              "description": "Tools available for managing investments.",
+              "value": "Dashboard for tracking investments and returns",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and investments.",
+              "value": "Encryption, two-factor authentication",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Risevest",
+          "description": "Risevest is an investment platform that allows users to invest in real estate, stocks, and other assets, aiming to make investing accessible and straightforward.",
+          "website_url": "https://www.risevest.com",
+          "logo_url": "https://www.risevest.com/logo.png",
+          "features": [
+            {
+              "name": "Investment Options",
+              "description": "Types of investment products available.",
+              "value": "Real Estate, Stocks, Bonds, ETFs",
+              "additional_details": ""
+            },
+            {
+              "name": "Minimum Investment",
+              "description": "Minimum amount required to start investing.",
+              "value": "$10",
+              "additional_details": ""
+            },
+            {
+              "name": "Portfolio Management",
+              "description": "Tools available for managing investments.",
+              "value": "Automated portfolio rebalancing, performance tracking",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Features",
+              "description": "Security measures in place to protect user data and investments.",
+              "value": "Encryption, two-factor authentication",
+              "additional_details": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Fintech Solutions",
+      "description": "Various fintech platforms offering a range of financial services including APIs, digital solutions, and specialized financial products.",
+      "products": [
+        {
+          "name": "Interswitch",
+          "description": "Interswitch is a leading integrated digital payments and commerce company in Africa, facilitating electronic transactions and offering a wide range of financial services.",
+          "website_url": "https://www.interswitchgroup.com",
+          "logo_url": "https://www.interswitchgroup.com/logo.png",
+          "features": [
+            {
+              "name": "Supported Payment Methods",
+              "description": "Various channels through which payments can be accepted.",
+              "value": "Credit/Debit Cards, Bank Transfers, Mobile Money, USSD",
+              "additional_details": ""
+            },
+            {
+              "name": "Pricing",
+              "description": "Fee structure for using the payment gateway.",
+              "value": "Customized pricing based on volume and services",
+              "additional_details": ""
+            },
+            {
+              "name": "API Integration",
+              "description": "Availability and type of API for integration with platforms.",
+              "value": "Available via REST and SOAP APIs",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Compliance",
+              "description": "Standards and certifications the gateway complies with.",
+              "value": "PCI DSS Compliant",
+              "additional_details": ""
+            }
+          ]
+        },
+        {
+          "name": "Appzone",
+          "description": "Appzone develops financial technology solutions, including mobile banking and payment systems, to enhance the digital capabilities of financial institutions.",
+          "website_url": "https://www.appzone.ng",
+          "logo_url": "https://www.appzone.ng/logo.png",
+          "features": [
+            {
+              "name": "Solution Offerings",
+              "description": "Types of fintech solutions provided.",
+              "value": "Mobile banking, payment systems, digital transformation tools",
+              "additional_details": ""
+            },
+            {
+              "name": "API Availability",
+              "description": "Availability of APIs for integration.",
+              "value": "Custom APIs available",
+              "additional_details": ""
+            },
+            {
+              "name": "Pricing",
+              "description": "Fee structure for using the solutions.",
+              "value": "Customized pricing based on services",
+              "additional_details": ""
+            },
+            {
+              "name": "Security Compliance",
+              "description": "Standards and certifications the solutions comply with.",
+              "value": "PCI DSS Compliant, ISO 27001",
+              "additional_details": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
